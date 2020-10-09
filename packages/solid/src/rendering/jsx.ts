@@ -2124,6 +2124,7 @@ declare global {
       type?: string;
       value?: string | string[] | number;
       width?: number | string;
+      inputMode?: 'none' | 'text' | 'tel' | 'url' | 'email' | 'numeric' | 'decimal' | 'search';
     }
 
     interface InsHTMLAttributes<T> extends HTMLAttributes<T> {
